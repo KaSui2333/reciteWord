@@ -1,0 +1,2 @@
+E:\code\c++\reciteWord\x64\Debug\reciteWord.exe
+E:\code\c++\reciteWord\x64\Debug\reciteWord.pdb
