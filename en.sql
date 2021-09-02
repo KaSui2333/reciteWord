@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 80023
 File Encoding         : 65001
 
-Date: 2021-08-12 18:59:00
+Date: 2021-09-02 23:51:39
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -24,7 +24,7 @@ CREATE TABLE `vocabulary` (
   `word` char(255) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,
   `mean` char(255) CHARACTER SET gbk COLLATE gbk_chinese_ci NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=85 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=119 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- ----------------------------
 -- Records of vocabulary
@@ -84,7 +84,7 @@ INSERT INTO `vocabulary` VALUES ('52', 'political', 'a. 政治的，政党的');
 INSERT INTO `vocabulary` VALUES ('53', 'promote', 'vt. 促进，推动，提升，推销');
 INSERT INTO `vocabulary` VALUES ('54', 'provide', 'vt. 提供，规定');
 INSERT INTO `vocabulary` VALUES ('55', 'prolong', 'vt. 延长，拉长，拖长');
-INSERT INTO `vocabulary` VALUES ('56', 'profound', 'a. 生客的，强烈的，知识渊博的');
+INSERT INTO `vocabulary` VALUES ('56', 'profound', 'a. 深刻的，强烈的，知识渊博的');
 INSERT INTO `vocabulary` VALUES ('57', 'profile', 'n.[C] 侧面轮廓，概述，人物简介 vt. 概述');
 INSERT INTO `vocabulary` VALUES ('58', 'proposal', 'n.[C] 提议，建议，求婚');
 INSERT INTO `vocabulary` VALUES ('59', 'provoke', 'vt. 激怒，引起，挑衅，刺激');
@@ -113,3 +113,37 @@ INSERT INTO `vocabulary` VALUES ('81', 'anxious', 'a. 焦虑的，焦急的，�
 INSERT INTO `vocabulary` VALUES ('82', 'scholar', 'n.[C] 学者，奖学金获得者');
 INSERT INTO `vocabulary` VALUES ('83', 'regular', 'a. 有规律的，平凡的，平常的 n.[C] 常客');
 INSERT INTO `vocabulary` VALUES ('84', 'peculiar', 'a. 奇怪的，特有的，特殊的');
+INSERT INTO `vocabulary` VALUES ('85', 'influence', 'n.[CU] 影响 vt. 影响，对…起作用');
+INSERT INTO `vocabulary` VALUES ('86', 'influential', 'a. 有影响力的 n.[C] 有影响的人');
+INSERT INTO `vocabulary` VALUES ('87', 'professor', 'n.[C] 教授，讲师，教员');
+INSERT INTO `vocabulary` VALUES ('88', 'professional', 'a. 专业的，职业的 n.[C] 专家');
+INSERT INTO `vocabulary` VALUES ('89', 'diverse', 'a. 不同的，多种多样的');
+INSERT INTO `vocabulary` VALUES ('90', 'reverse', 'vt. 彻底转变，撤销 a. 相反的 n. 反面，背面');
+INSERT INTO `vocabulary` VALUES ('91', 'version', 'n.[C] 版本，变体，型式，说法');
+INSERT INTO `vocabulary` VALUES ('92', 'universal', 'a. 普遍的，全体的，全世界的');
+INSERT INTO `vocabulary` VALUES ('93', 'conversation', 'n.[CU] 谈话，交谈');
+INSERT INTO `vocabulary` VALUES ('94', 'cognitive', 'a. 认知的，感知的，认识的');
+INSERT INTO `vocabulary` VALUES ('95', 'ignore', 'vt. 忽视，不理睬');
+INSERT INTO `vocabulary` VALUES ('96', 'philosophy', 'n.[U] 哲学 n.[C] 哲学思想，人生哲学');
+INSERT INTO `vocabulary` VALUES ('97', 'initiative', 'n.[U] 主动性，积极性 n.[C] 提倡，新方案');
+INSERT INTO `vocabulary` VALUES ('98', 'urban', 'a. 城市的，都市的，城镇的');
+INSERT INTO `vocabulary` VALUES ('99', 'major', 'a. 主要的，重要的 vi. 主修 n.[C] 专业');
+INSERT INTO `vocabulary` VALUES ('100', 'majority', 'n. 大多数 n.[C] 多数票');
+INSERT INTO `vocabulary` VALUES ('101', 'apart', 'ad. 分开，除…外，散开地，破裂地');
+INSERT INTO `vocabulary` VALUES ('102', 'philosopher', 'n.[C] 哲学家，善于思考的人');
+INSERT INTO `vocabulary` VALUES ('103', 'initial', 'a. 开始的，最初的 n. (姓名)首字母');
+INSERT INTO `vocabulary` VALUES ('104', 'upset', 'vt. 使…生气，搅乱 a. 难过，失望');
+INSERT INTO `vocabulary` VALUES ('105', 'settlement', 'n.[C] 定居点，聚居地，协议 n.[U] 解决');
+INSERT INTO `vocabulary` VALUES ('106', 'resident', 'n.[C] 居民 a. 居住的');
+INSERT INTO `vocabulary` VALUES ('107', 'president', 'n.[C] 总统，主席，校长，银行行长，总经理');
+INSERT INTO `vocabulary` VALUES ('108', 'assess', 'vt. 评估，估算，核定');
+INSERT INTO `vocabulary` VALUES ('109', 'episode', 'n.[C] 片段，插曲，一段经历，事件，一集');
+INSERT INTO `vocabulary` VALUES ('110', 'import', 'vt. 进口，引进 n.[U] 进口 n.[C] 进口商品');
+INSERT INTO `vocabulary` VALUES ('111', 'export', 'v. 出口 n.[U] 出口 n. 出口商品');
+INSERT INTO `vocabulary` VALUES ('112', 'transport', 'vt. 运输 n.[U] 运输，交通工具');
+INSERT INTO `vocabulary` VALUES ('113', 'reporter', 'n.[C] 记者，通讯员');
+INSERT INTO `vocabulary` VALUES ('114', 'proportion', 'n.[C] 部分 n.[CU] 比例 n. 规模');
+INSERT INTO `vocabulary` VALUES ('115', 'collect', 'vt. 收集，收藏，领取，收取 v. 募捐');
+INSERT INTO `vocabulary` VALUES ('116', 'collection', 'n.[C] 收藏品，一群人，作品集 n.[U] 收集');
+INSERT INTO `vocabulary` VALUES ('117', 'select', 'vt. 挑选，选择，选拔 a. 精选的，优等的');
+INSERT INTO `vocabulary` VALUES ('118', 'selection', 'n.[U] 选择，挑选 n.[C] 入选者');
